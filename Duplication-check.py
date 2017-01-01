@@ -12,10 +12,8 @@ AgentList = ["Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, lik
 
 # Total number of matches/total number of words is a duplication percentage
 
-#compare = ['http://www.canon.co.uk','http://www.canon.de']
 compare = [line.rstrip('\n') for line in open('first.txt')]
 
-#compare_2 = ['http://www.canon.ie/','http://www.canon.co.uk']
 compare_2 = [line.rstrip('\n') for line in open('second.txt')]
 
 def comparison():
